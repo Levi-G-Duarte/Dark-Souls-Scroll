@@ -23,16 +23,19 @@ section{
     min-height: 100vh
 }
 
-.hidden{
-    opacity: 0;
-    transition: all 6s
-}
 @media(prefers-reduced-motion){
     .hidden{
         transition: none
     }
 }
 
+.hidden{
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 2s
+}
 .show{
+    transform: translateX(0);
     opacity: 1;
 }
+
