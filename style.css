@@ -3,6 +3,14 @@
 body{
     background-color: #171717;
     color:white;
+    text-align:center
+}
+
+#title{
+    margin-top:80px;
+    /* background-color: purple; */
+    animation: appear 2.5s forwards linear;
+    /* animation-delay: 1s; */
 }
 
 .begin{
@@ -37,5 +45,16 @@ section{
 .show{
     transform: translateX(0);
     opacity: 1;
+}
+
+@keyframes appear{
+    0%{
+        opacity: 0;
+        transform: scale(0.5)
+    }
+    100%{
+        transform:scale(1);
+        opacity: 1
+    }
 }
 
