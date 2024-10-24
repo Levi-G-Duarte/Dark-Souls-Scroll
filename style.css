@@ -8,9 +8,7 @@ body{
 
 #title{
     margin-top:80px;
-    /* background-color: purple; */
-    animation: appear 2.5s forwards linear;
-    /* animation-delay: 1s; */
+    animation: appear 4s ease;
 }
 
 .begin{
@@ -58,3 +56,6 @@ section{
     }
 }
 
+.none{
+    display:none
+}
