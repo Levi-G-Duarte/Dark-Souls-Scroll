@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face{
     font-family: 'Optimus Princeps';
-    src: url('/fonts/OptimusPrinceps.ttf')
+    src: url('./fonts/OptimusPrinceps.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 body{
     background-color: #171717;
@@ -11,7 +13,7 @@ body{
 
 .main-span{
     color: red;
-    font-family: "Optimus Princeps"
+    font-family: 'Optimus Princeps', sans-serif;
 }
 
 #title{
