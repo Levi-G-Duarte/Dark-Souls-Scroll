@@ -35,6 +35,7 @@ h1{
 section{
     display:grid;
     place-items:center;
+    grid-template-rows: 2fr;
     align-content: center;
     min-height: 100vh
 }
