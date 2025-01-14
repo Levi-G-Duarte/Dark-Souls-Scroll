@@ -5,10 +5,14 @@
     font-weight: normal;
     font-style: normal;
 }
+
 body{
-    background-color: #171717;
+    background-color: #121212;
     color:white;
     text-align:center
+}
+p{
+    font-size: 1.5rem;
 }
 
 .main-span{
@@ -26,12 +30,22 @@ h1{
     font-weight: bold;
     font-size: 3rem;
     text-align: center;
-    margin-top: 100px;
+    /* margin-top: 100px; */
+}
+
+#Ashen-One{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+
+.bosses p{
+    text-shadow: 1px 1px 10px rgb(201, 201, 201), 1px 1px 10px rgb(201, 201, 201);
 }
 
 section{
     display:grid;
-    grid-template-rows: 2fr;
+    /* grid-template-rows: 2fr; */
     align-content: center;
     min-height: 100vh
 }
@@ -65,4 +79,8 @@ section{
 
 .none{
     display:none
+}
+
+.ds-font{
+    font-family: 'Optimus Princeps', sans-serif;
 }
